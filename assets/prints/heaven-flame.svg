@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="flameBlur" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#A78BFA"/>
+      <stop offset="60%" stop-color="#DDD6FE"/>
+      <stop offset="100%" stop-color="#1E1B4B" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="motionBlur">
+      <feGaussianBlur stdDeviation="3 8"/>
+    </filter>
+  </defs>
+  <rect width="500" height="700" fill="#09090C" rx="16"/>
+
+  <g transform="translate(250, 310)">
+    <!-- Blurred downward flame trails -->
+    <g filter="url(#motionBlur)" opacity="0.85">
+      <path d="M -180,0 L -180,180 Q -160,240 -150,160 L -120,230 Q -100,280 -80,180 L -50,250 Q -20,310 0,200 L 30,270 Q 70,300 90,190 L 130,240 Q 150,270 170,170 L 180,0 Z" 
+            fill="url(#flameBlur)"/>
+    </g>
+
+    <!-- Gothic Blackletter "heaven" -->
+    <text x="0" y="30" font-family="'Old English Text MT', 'UnifrakturMaguntia', serif, 'Times New Roman'" 
+          font-size="105" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">
+      heaven
+    </text>
+  </g>
+</svg>

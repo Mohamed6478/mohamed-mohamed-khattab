@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <filter id="pinkGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#f43f5e" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+  <rect width="600" height="700" fill="#0D0D10" rx="16"/>
+  
+  <!-- Floating Dollar Bills background -->
+  <g transform="translate(180, 70) rotate(-15)">
+    <rect width="220" height="110" rx="6" fill="#1C281F" stroke="#4ADE80" stroke-width="2.5" opacity="0.85"/>
+    <circle cx="110" cy="55" r="32" fill="none" stroke="#4ADE80" stroke-width="2"/>
+    <text x="110" y="62" font-family="monospace" font-size="24" fill="#4ADE80" text-anchor="middle" font-weight="bold">$100</text>
+  </g>
+  <g transform="translate(60, 260) rotate(22)">
+    <rect width="210" height="105" rx="6" fill="#1C281F" stroke="#4ADE80" stroke-width="2.5" opacity="0.85"/>
+    <circle cx="105" cy="52" r="30" fill="none" stroke="#4ADE80" stroke-width="2"/>
+    <text x="105" y="60" font-family="monospace" font-size="22" fill="#4ADE80" text-anchor="middle" font-weight="bold">$100</text>
+  </g>
+  <g transform="translate(320, 380) rotate(-18)">
+    <rect width="230" height="115" rx="6" fill="#1C281F" stroke="#4ADE80" stroke-width="2.5" opacity="0.85"/>
+    <circle cx="115" cy="57" r="32" fill="none" stroke="#4ADE80" stroke-width="2"/>
+    <text x="115" y="65" font-family="monospace" font-size="24" fill="#4ADE80" text-anchor="middle" font-weight="bold">$100</text>
+  </g>
+  <!-- Paper Airplane Dollar -->
+  <g transform="translate(220, 480) rotate(-25)">
+    <polygon points="0,40 140,0 80,60" fill="#E2E8F0" stroke="#10B981" stroke-width="2"/>
+    <polygon points="80,60 140,0 60,90" fill="#CBD5E1" stroke="#10B981" stroke-width="1.5"/>
+  </g>
+
+  <!-- MONEY Typography Layers -->
+  <g font-family="'Impact', 'Arial Black', sans-serif" font-weight="900" text-anchor="middle" letter-spacing="4">
+    <!-- Top outline money -->
+    <text x="300" y="180" font-size="82" fill="none" stroke="#F43F5E" stroke-width="6" stroke-linejoin="round" filter="url(#pinkGlow)">MONEY</text>
+    <!-- Second money -->
+    <text x="300" y="290" font-size="94" fill="#18181B" stroke="#FB7185" stroke-width="7" stroke-linejoin="round">MONEY</text>
+    <!-- Solid Pink Bubble Money -->
+    <text x="300" y="410" font-size="98" fill="#F43F5E" stroke="#FFFFFF" stroke-width="5" filter="url(#pinkGlow)">MONEY</text>
+    <!-- Bottom line money -->
+    <text x="300" y="530" font-size="88" fill="none" stroke="#FDA4AF" stroke-width="6" stroke-linejoin="round">MONEY</text>
+  </g>
+  
+  <text x="300" y="630" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="28" fill="#FB7185" text-anchor="middle" letter-spacing="8">GIVE ME MONEY</text>
+</svg>

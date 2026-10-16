@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="euphoriaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="20%" stop-color="#E879F9"/>
+      <stop offset="45%" stop-color="#C084FC"/>
+      <stop offset="70%" stop-color="#FB923C"/>
+      <stop offset="95%" stop-color="#581C87" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="liquidMelting">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02 0.08" numOctaves="2" result="warp"/>
+      <feDisplacementMap in="SourceGraphic" in2="warp" scale="22" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <rect width="500" height="700" fill="#08070B" rx="16"/>
+
+  <g transform="translate(250, 320)">
+    <!-- Liquid Dripping Trails -->
+    <g filter="url(#liquidMelting)">
+      <path d="M -190,0 Q -170,140 -160,260 Q -140,360 -130,220 Q -110,340 -90,200 Q -60,370 -40,240 Q -10,390 10,210 Q 40,380 70,220 Q 100,350 120,200 Q 150,330 170,180 L 190,0 Z" 
+            fill="url(#euphoriaGrad)" opacity="0.9"/>
+    </g>
+
+    <!-- Clean Typography Header -->
+    <text x="0" y="25" font-family="'Plus Jakarta Sans', 'Arial Black', sans-serif" font-weight="900" 
+          font-size="62" fill="#FFFFFF" text-anchor="middle" letter-spacing="6">
+      EUPHORIA
+    </text>
+  </g>
+</svg>

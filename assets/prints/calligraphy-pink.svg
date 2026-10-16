@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 750" width="100%" height="100%">
+  <defs>
+    <filter id="cloudShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#F43F5E" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="500" height="750" fill="#E8DFD8" rx="16"/>
+
+  <g transform="translate(80, 80)" filter="url(#cloudShadow)">
+    <!-- Cloud Sticker Badge -->
+    <path d="M 90,60 Q 60,10 130,20 Q 200,5 240,40 Q 290,10 320,60 Q 360,110 330,170 Q 370,230 330,300 Q 360,370 320,440 Q 340,510 280,550 Q 210,580 160,550 Q 90,580 50,510 Q 0,450 30,380 Q 0,310 20,240 Q -10,170 30,110 Q 40,40 90,60 Z" 
+          fill="#FCE7F3" stroke="#FFFFFF" stroke-width="12" stroke-linejoin="round"/>
+    
+    <!-- Arabic Calligraphy in 3D Magenta/Rose -->
+    <g fill="#DB2777" font-family="'Cairo', cursive, sans-serif" font-weight="900" text-anchor="middle">
+      <text x="175" y="160" font-size="52" stroke="#FFFFFF" stroke-width="4">وَلَسَوْفَ</text>
+      <text x="175" y="270" font-size="54" stroke="#FFFFFF" stroke-width="4">يُعْطِيكَ</text>
+      <text x="175" y="380" font-size="58" stroke="#FFFFFF" stroke-width="4">رَبُّكَ</text>
+      <text x="175" y="480" font-size="58" stroke="#FFFFFF" stroke-width="4">فَتَرْضَى</text>
+      <!-- Heart -->
+      <path d="M 175,520 C 175,510 155,495 140,510 C 120,530 150,555 175,570 C 200,555 230,530 210,510 C 195,495 175,510 175,520 Z" 
+            fill="#E11D48"/>
+    </g>
+  </g>
+</svg>

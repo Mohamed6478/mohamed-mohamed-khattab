@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>كريم السيد | KARIM ELSAYED — ستريت وير مصري راقي</title>
+  <meta name="description" content="متجر ملابس ستريت وير مصري راقي مع استوديو لتصميم التيشيرتات المخصصة وإتمام الطلبات عبر واتساب." />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="كريم السيد | KARIM ELSAYED — ستريت وير مصري راقي" />
+  <meta property="og:description" content="متجر ملابس ستريت وير مصري راقي مع استوديو لتصميم التيشيرتات المخصصة وإتمام الطلبات عبر واتساب." />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="كريم السيد | KARIM ELSAYED" />
+  <meta name="twitter:description" content="متجر ملابس ستريت وير مصري راقي مع استوديو لتصميم التيشيرتات المخصصة وإتمام الطلبات عبر واتساب." />
+
+  <!-- Google Fonts: Cairo + Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- ملف التنسيقات الرئيسي -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <!-- شريط الإعلانات العلوي -->
+  <div class="announcement-bar">
+    <span>🔥 خصم 15% على أول طلب بكود: <strong>EGYPT15</strong> • 📦 <a href="/download-zip" download="karim-elsayed-store.zip" style="color:#ffffff;text-decoration:underline;font-weight:700;">اضغط هنا لتحميل كود المشروع بالكامل في ملف واحد مضغوط (ZIP)</a> • شحن لجميع المحافظات</span>
+  </div>
+
+  <!-- الهيدر وشريط التنقل -->
+  <header class="site-header" id="siteHeader">
+    <div class="container navbar">
+      
+      <!-- شعار البراند -->
+      <a href="#home" class="brand-logo" aria-label="الرئيسية - كريم السيد">
+        <span class="logo-arabic">كريم السيد</span>
+        <span class="logo-en">KARIM ELSAYED</span>
+      </a>
+
+      <!-- روابط التنقل -->
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+          <li><a href="#catalog" class="nav-link">تشكيلة الملابس</a></li>
+          <li><a href="#brand-prints" class="nav-link"><span class="badge-tag" style="background:#dc2626;">تصاميم</span>المعرض الحصري</a></li>
+          <li><a href="#custom-designer" class="nav-link"><span class="badge-tag">جديد</span>استوديو التصميم</a></li>
+          <li><a href="#about" class="nav-link">عن البراند</a></li>
+          <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+        </ul>
+      </nav>
+
+      <!-- أزرار الإجراءات في الهيدر -->
+      <div class="nav-actions">
+        <!-- زر تبديل اللغة عربي / إنجليزي -->
+        <button class="icon-btn lang-btn" id="langToggleBtn" title="English / عربي" aria-label="تبديل اللغة">
+          <span style="font-weight:800;font-size:0.75rem;font-family:var(--font-en);">EN</span>
+        </button>
+
+        <!-- زر تحميل كود المشروع الكامل ZIP -->
+        <a href="/download-zip" download="karim-elsayed-store.zip" class="download-nav-btn" id="downloadZipNavBtn" title="تحميل ملفات المشروع كاملة (ZIP)" aria-label="تحميل ملفات المشروع في ملف واحد مضغوط ZIP">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>تحميل المشروع (ZIP)</span>
+        </a>
+
+        <!-- زر فتح البحث -->
+        <button class="icon-btn" id="searchToggleBtn" title="بحث في المتجر" aria-label="بحث في المتجر">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+
+        <!-- زر لوحة الإدارة التجريبية -->
+        <button class="admin-nav-btn" id="adminOpenBtn" title="لوحة الإدارة التجريبية">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="7" height="7"></rect>
+            <rect x="14" y="3" width="7" height="7"></rect>
+            <rect x="14" y="14" width="7" height="7"></rect>
+            <rect x="3" y="14" width="7" height="7"></rect>
+          </svg>
+          <span>الإدارة</span>
+        </button>
+
+        <!-- زر سلة التسوق مع العداد -->
+        <button class="icon-btn cart-btn" id="cartOpenBtn" title="سلة المشتريات" aria-label="فتح سلة المشتريات">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-counter" id="cartCounter">0</span>
+        </button>
+
+        <!-- زر القائمة للموبايل -->
+        <button class="icon-btn mobile-menu-btn" id="mobileMenuToggle" aria-label="فتح القائمة">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- شريط البحث السريع المنسدل -->
+    <div class="search-bar-wrapper" id="searchBarWrapper">
+      <div class="container">
+        <div class="search-input-box">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="headerSearchInput" placeholder="ابحث باسم المنتج، اللون، أو التصنيف (مثال: أوفر سايز، هودي، كود القاهرة)..." />
+          <button id="searchCloseBtn" class="icon-btn" style="width:30px;height:30px;">✕</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- المحتوى الرئيسي -->
+  <main id="home">
+
+    <!-- قسم الهيرو الرئيسي -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content">
+            <div class="hero-tag">
+              <span class="dot"></span>
+              <span>تشكيلة صيف / شتاء 2026 الحصرية</span>
+            </div>
+            
+            <h1 class="hero-title">
+              أناقة الستريت وير المصري
+              <span>بهوية عصرية فريدة</span>
+            </h1>
+            
+            <p class="hero-desc">
+              خامات قطنية مصرية 100% فائقة النعومة بوزن ثقيل، قصات أوفر سايز متقنة، واستوديو تفاعلي يتيح لك تصميم تيشيرتك بنفسك وطباعته بأعلى دقة ديجيتال.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#catalog" class="btn-primary">
+                <span>تسوق التشكيلة الآن</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="19" y1="12" x2="5" y2="12"></line>
+                  <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+              </a>
+
+              <a href="#custom-designer" class="btn-outline">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 20h9"></path>
+                  <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                </svg>
+                <span>صمم تيشيرتك بنفسك</span>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- بطاقة المعاينة في الهيرو -->
+          <div class="hero-mockup-wrapper">
+            <div class="hero-mockup-card">
+              <div class="hero-mockup-img" id="heroMockupContainer">
+                <!-- صورة توضيحية للتيشيرت البطل -->
+                <svg viewBox="0 0 600 700" width="100%" height="100%">
+                  <rect width="600" height="700" fill="#0d0d10"/>
+                  <g transform="translate(300, 360)">
+                    <ellipse cx="0" cy="220" rx="180" ry="24" fill="rgba(0,0,0,0.6)" filter="blur(8px)"/>
+                    <path d="M -160 -170 L -90 -190 L -40 -160 C -15 -140 15 -140 40 -160 L 90 -190 L 160 -170 L 130 -90 L 95 -105 L 90 190 L -90 190 L -95 -105 L -130 -90 Z" 
+                          fill="#151518" stroke="#333338" stroke-width="3"/>
+                    <path d="M -40 -160 C -20 -130 20 -130 40 -160" fill="none" stroke="#333338" stroke-width="3"/>
+                    <rect x="-70" y="-70" width="140" height="140" rx="8" fill="rgba(255,255,255,0.04)" stroke="#3f3f46" stroke-width="1.5"/>
+                    <text x="0" y="-15" font-family="'Cairo', sans-serif" font-weight="900" font-size="20" fill="#ffffff" text-anchor="middle">CAIRO 01</text>
+                    <text x="0" y="20" font-family="'Cairo', sans-serif" font-weight="700" font-size="13" fill="#a1a1aa" text-anchor="middle">كريم السيد</text>
+                    <text x="0" y="55" font-family="'Cairo', sans-serif" font-weight="600" font-size="10" fill="#71717a" text-anchor="middle" letter-spacing="3">STREETWEAR</text>
+                  </g>
+                </svg>
+              </div>
+
+              <div class="hero-mockup-badge">
+                <div style="width:10px;height:10px;border-radius:50%;background:#10b981;"></div>
+                <div>
+                  <div style="font-weight:800;font-size:0.9rem;color:#fff;">قطن مصري 100%</div>
+                  <div style="font-size:0.75rem;color:#a1a1aa;">معالجة حرارية ضد الانكماش</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- شريط مميزات المتجر -->
+    <section class="features-strip">
+      <div class="container">
+        <div class="features-grid">
+          
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>خامات قطنية 100%</h4>
+              <p>أجود غزل قطن مصري بأوزان ثقيلة</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="3" width="15" height="13"></rect>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>شحن سريع لجميع المحافظات</h4>
+              <p>توصيل آمن لباب البيت في 48 ساعة</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 20h9"></path>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>طباعة حسب الطلب</h4>
+              <p>استوديو 2D لرفع وتثبيت تصاميمك</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+            </div>
+            <div class="feature-text">
+              <h4>طلب مباشر عبر واتساب</h4>
+              <p>تأكيد فوري دون تعقيد أو تسجيل حساب</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- كتالوج المنتجات الرئيسي -->
+    <section class="section-padding" id="catalog">
+      <div class="container">
+        
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">تشكيلة ملابس كريم السيد</h2>
+            <p class="section-subtitle">اكتشف أحدث تصاميم الستريت وير، التيشيرتات، البناطيل، والهوديز</p>
+          </div>
+          <div style="display:flex;gap:10px;">
+            <button class="tool-btn" id="filterFeaturedBtn">المميزة فقط ⭐</button>
+            <button class="tool-btn" id="filterBestsellerBtn">الأكثر مبيعاً 🔥</button>
+          </div>
+        </div>
+
+        <!-- شريط تصنيفات الأقسام الثمانية -->
+        <div class="categories-filter-bar" id="categoryFilterBar">
+          <button class="category-pill active" data-category="all">جميع المنتجات</button>
+          <button class="category-pill" data-category="تيشيرتات مطبوعة">تيشيرتات مطبوعة</button>
+          <button class="category-pill" data-category="تيشيرتات سادة">تيشيرتات سادة</button>
+          <button class="category-pill" data-category="تيشيرتات أوفر سايز">تيشيرتات أوفر سايز</button>
+          <button class="category-pill" data-category="طباعة حسب الطلب">طباعة حسب الطلب</button>
+          <button class="category-pill" data-category="بناطيل">بناطيل</button>
+          <button class="category-pill" data-category="هوديز">هوديز</button>
+          <button class="category-pill" data-category="سويت شيرت">سويت شيرت</button>
+          <button class="category-pill" data-category="إكسسوارات">إكسسوارات</button>
+        </div>
+
+        <!-- شريط تحكم الفرز والعدد -->
+        <div class="catalog-controls">
+          <div class="catalog-counter" id="catalogCounter">
+            عرض <span id="displayedCount">0</span> من إجمالي <span id="totalCount">0</span> منتج
+          </div>
+
+          <div class="sort-select-wrapper">
+            <label for="catalogSort">ترتيب حسب:</label>
+            <select class="sort-select" id="catalogSort">
+              <option value="featured">المميز أولاً</option>
+              <option value="newest">الأحدث وصولاً</option>
+              <option value="price-low">السعر: من الأقل للأعلى</option>
+              <option value="price-high">السعر: من الأعلى للأقل</option>
+              <option value="bestseller">الأكثر طلباً</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- شبكة المنتجات -->
+        <div class="products-grid" id="productsGrid">
+          <!-- يتم ملؤها ديناميكياً بواسطة app.js -->
+        </div>
+
+        <!-- حالة عدم وجود نتائج -->
+        <div class="empty-cart-state" id="noProductsFound" style="display:none;padding:50px 0;">
+          <svg class="empty-cart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <h3>لا توجد منتجات مطابقة للبحث أو الفلتر المختار</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;">جرب كتابة مصطلح بحث آخر أو اختر تصنيفاً مختلفاً.</p>
+          <button class="btn-outline" id="resetCatalogFiltersBtn">عرض جميع المنتجات</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         قسم مكتبة تصاميم كريم السيد الحصرية (Brand Artworks & Prints)
+         ========================================================================== -->
+    <section class="section-padding brand-prints-section" id="brand-prints">
+      <div class="container">
+        
+        <div class="section-header">
+          <div>
+            <div class="hero-tag" style="margin-bottom:10px;">
+              <span class="dot" style="background:#ef4444;box-shadow:0 0 10px #ef4444;"></span>
+              <span>أعمال أصلية 100% للبراند</span>
+            </div>
+            <h2 class="section-title">مكتبة تصاميم كريم السيد الحصرية (Prints & Artworks)</h2>
+            <p class="section-subtitle">تصاميم جرافيكية حصرية مستوحاة من ثقافة الشارع المصري والـ Y2K، جاهزة للمعاينة والطباعة الفورية على الهوديز والتيشيرتات</p>
+          </div>
+          <div>
+            <a href="#custom-designer" class="btn-outline">
+              <span>انتقل للاستوديو التفاعلي 🎨</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- فلتر تصنيفات التصاميم الجرافيكية -->
+        <div class="categories-filter-bar" id="printsCategoryBar">
+          <button class="category-pill active" data-print-cat="all">جميع التصاميم (14)</button>
+          <button class="category-pill" data-print-cat="وطني وخط عربي">وطني وتراث</button>
+          <button class="category-pill" data-print-cat="Y2K وكروما">Y2K وكروما</button>
+          <button class="category-pill" data-print-cat="ستريت وير قوطي">قوطي وميتال</button>
+          <button class="category-pill" data-print-cat="بوب آرت وستريت">بوب آرت وريترو</button>
+        </div>
+
+        <!-- شبكة بطاقات التصاميم الحصرية -->
+        <div class="brand-prints-grid" id="brandPrintsGrid">
+          <!-- يتم ملؤها ديناميكياً بواسطة app.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         قسم استوديو التصميم المخصص (Custom T-Shirt Designer)
+         ========================================================================== -->
+    <section class="custom-designer-section" id="custom-designer">
+      <div class="container">
+        
+        <div class="section-header">
+          <div>
+            <div class="hero-tag" style="margin-bottom:10px;">
+              <span class="dot" style="background:#3b82f6;box-shadow:0 0 10px #3b82f6;"></span>
+              <span>ميزة حصرية ومباشرة</span>
+            </div>
+            <h2 class="section-title">استوديو تصميم التيشيرتات المخصص</h2>
+            <p class="section-subtitle">ارفع صورتك أو تصميمك المفضل، عاينه على التيشيرت بحرية، وأضفه مباشرة إلى سلة المشتريات</p>
+          </div>
+        </div>
+
+        <div class="designer-layout">
+          
+          <!-- لوحة المعاينة التفاعلية -->
+          <div class="designer-stage-card">
+            
+            <div class="stage-header">
+              <div class="stage-title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span>المعاينة المباشرة (2D Interactive)</span>
+              </div>
+
+              <!-- تبديل الوجه الأمامي والخلفي -->
+              <div class="side-toggle-group">
+                <button class="side-toggle-btn active" id="sideFrontBtn" data-side="front">الوجه الأمامي</button>
+                <button class="side-toggle-btn" id="sideBackBtn" data-side="back">الوجه الخلفي</button>
+              </div>
+            </div>
+
+            <!-- حاوية الموك أب ومنطقة الطباعة القابلة للسحب والتحريك -->
+            <div class="mockup-viewport" id="mockupViewport">
+              
+              <!-- مجسم التيشيرت SVG ذو اللون التفاعلي -->
+              <svg class="tshirt-svg-base" id="tshirtSvgBase" viewBox="0 0 600 700">
+                <defs>
+                  <filter id="shirtShadow" x="-10%" y="-10%" width="120%" height="120%">
+                    <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.6"/>
+                  </filter>
+                </defs>
+                <g id="tshirtGroup" filter="url(#shirtShadow)">
+                  <!-- مجسم التيشيرت -->
+                  <path id="tshirtPath" d="M 120 70 L 210 40 L 260 80 C 285 105 315 105 340 80 L 390 40 L 480 70 L 440 180 L 395 160 L 390 620 L 210 620 L 205 160 L 160 180 Z" 
+                        fill="#111113" stroke="#2b2b30" stroke-width="3"/>
+                  <!-- خط الرقبة والياقة -->
+                  <path id="neckPath" d="M 260 80 C 285 115 315 115 340 80" fill="none" stroke="#2b2b30" stroke-width="3"/>
+                  <!-- خياطة وتفاصيل الأكمام -->
+                  <line x1="165" y1="170" x2="205" y2="160" stroke="#2b2b30" stroke-width="2"/>
+                  <line x1="435" y1="170" x2="395" y2="160" stroke="#2b2b30" stroke-width="2"/>
+                </g>
+
+                <g id="hoodieGroup" filter="url(#shirtShadow)" style="display:none;">
+                  <!-- كابيشون الهودي -->
+                  <path id="hoodieHoodPath" d="M 200 80 Q 300 20 400 80 Q 360 120 300 115 Q 240 120 200 80 Z" fill="#0f0f11" stroke="#2b2b30" stroke-width="2"/>
+                  <!-- مجسم الهودي الثقيل -->
+                  <path id="hoodiePath" d="M 110 90 L 190 70 L 240 90 Q 300 115 360 90 L 410 70 L 490 90 L 460 250 L 400 220 L 395 620 L 205 620 L 200 220 L 140 250 Z" 
+                        fill="#111113" stroke="#2b2b30" stroke-width="3"/>
+                  <!-- جيب الكنغر -->
+                  <path id="kangarooPocketPath" d="M 230 460 L 370 460 L 390 570 L 210 570 Z" fill="#0d0d0f" stroke="#2b2b30" stroke-width="2"/>
+                </g>
+              </svg>
+
+              <!-- المنطقة القابلة للطباعة (Printable Area) -->
+              <div class="printable-area" id="printableArea" title="المنطقة المسموح بالطباعة داخلها">
+                <span class="printable-area-label">منطقة الطباعة</span>
+                
+                <!-- عنصر التصميم المرفوع (قابل للسحب والتحريك وتغيير الحجم) -->
+                <div class="custom-artwork-element" id="customArtworkElement">
+                  <img id="customArtworkImg" src="" alt="تصميم القطعة" />
+                </div>
+              </div>
+
+            </div>
+
+            <!-- تحذير إرشادي صريح وواضح -->
+            <div class="illustrative-disclaimer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+              <div>
+                <strong>تنبيه توضيحي:</strong> هذه المعاينة التفاعلية ثنائية الأبعاد (2D) لأغراض إيضاح الشكل والموضع التقريبي فقط. قد يختلف الموضع الدقيق ودرجات الألوان الطبيعية بنسبة طفيفة عند الطباعة الحقيقية المباشرة على نسيج القماش.
+              </div>
+            </div>
+
+          </div>
+
+          <!-- لوحة أدوات التحكم والخيارات -->
+          <div class="designer-controls-card">
+            
+            <!-- 1. اختيار نوع القطعة: تيشيرت أو هودي -->
+            <div class="control-group">
+              <div class="control-group-title">
+                <span>1. نوع القطعة (Garment Type)</span>
+                <span id="garmentTypeLabel" style="font-size:0.75rem;color:var(--text-pure);font-weight:700;">تيشيرت أوفر سايز</span>
+              </div>
+              <div class="garment-type-group">
+                <button type="button" class="garment-type-btn active" id="garmentTshirtBtn" data-garment="tshirt">👕 تيشيرت أوفر سايز (240g)</button>
+                <button type="button" class="garment-type-btn" id="garmentHoodieBtn" data-garment="hoodie">🧥 هودي شتوي ثقيل (380g)</button>
+              </div>
+            </div>
+
+            <!-- 2. اختيار من تصاميم البراند الحصرية -->
+            <div class="control-group">
+              <div class="control-group-title">
+                <span>2. تصاميم كريم السيد الحصرية (14 تصميم)</span>
+                <span style="font-size:0.75rem;color:var(--text-muted);">انقر لاختيار التصميم فوراً</span>
+              </div>
+              <div class="preset-prints-selector" id="presetPrintsSelector">
+                <!-- يتم ملؤها ديناميكياً من BRAND_PRINTS -->
+              </div>
+            </div>
+
+            <!-- 3. رفع صورة خاصة من الجهاز -->
+            <div class="control-group">
+              <div class="control-group-title">
+                <span>3. أو ارفع تصميمك الخاص من جهازك</span>
+                <span style="font-size:0.75rem;color:var(--text-muted);">JPG, PNG, WEBP</span>
+              </div>
+
+              <div class="upload-dropzone" id="uploadDropzone">
+                <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="17 8 12 3 7 8"></polyline>
+                  <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+                <h5>اسحب الصورة هنا أو اضغط لاختيارها</h5>
+                <p>يمكنك رفع الشعار أو صورتك الخاصة من هاتفك أو جهازك</p>
+                <input type="file" id="designerFileInput" accept="image/png, image/jpeg, image/jpg, image/webp" style="display:none;" />
+              </div>
+            </div>
+
+            <!-- 2. أدوات التحكم في موضع وحجم التصميم -->
+            <div class="control-group" id="artworkControlsContainer" style="display:none;">
+              <div class="control-group-title">
+                <span>2. ضبط الحجم والموضع</span>
+                <span style="font-size:0.75rem;color:var(--text-green);">اسحب الصورة مباشرة لتحريكها</span>
+              </div>
+
+              <div class="transform-controls">
+                
+                <div class="slider-row">
+                  <label for="artworkScaleSlider">الحجم:</label>
+                  <input type="range" class="custom-range" id="artworkScaleSlider" min="30" max="180" value="90" />
+                  <span id="scaleValueLabel" style="font-size:0.8rem;font-weight:700;width:40px;text-align:left;">90%</span>
+                </div>
+
+                <div class="action-tools-row">
+                  <button class="tool-btn" id="centerHorizontalBtn" title="توسيط أفقي">
+                    ↔️ توسيط أفقي
+                  </button>
+                  <button class="tool-btn" id="centerVerticalBtn" title="توسيط رأسي">
+                    ↕️ توسيط رأسي
+                  </button>
+                  <button class="tool-btn" id="resetPositionBtn" title="إعادة الضبط">
+                    🔄 إعادة ضبط
+                  </button>
+                  <button class="tool-btn" id="replaceImageBtn" title="استبدال الصورة">
+                    📷 استبدال
+                  </button>
+                  <button class="tool-btn" id="removeArtworkBtn" style="color:var(--accent-red);" title="حذف الصورة">
+                    🗑️ حذف
+                  </button>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- 3. اختيار لون التيشيرت -->
+            <div class="control-group">
+              <div class="control-group-title">
+                <span>3. اختر لون التيشيرت</span>
+                <span id="selectedColorNameLabel" style="font-size:0.8rem;color:var(--text-muted);">أسود فحمي</span>
+              </div>
+
+              <div class="color-picker-group" id="designerColorSwatches">
+                <!-- يتم توليد الأزرار بواسطة app.js -->
+              </div>
+            </div>
+
+            <!-- 4. اختيار المقاس -->
+            <div class="control-group">
+              <div class="control-group-title">
+                <span>4. اختر المقاس</span>
+                <span id="selectedSizeLabel" style="font-size:0.8rem;color:var(--text-muted);">L</span>
+              </div>
+
+              <div class="size-selector-group" id="designerSizePills">
+                <!-- يتم توليد أزرار المقاسات بواسطة app.js -->
+              </div>
+            </div>
+
+            <!-- 5. السعر وزر الإضافة للسلة -->
+            <div class="designer-summary-box">
+              <div>
+                <div style="font-size:0.8rem;color:var(--text-muted);">سعر التيشيرت المخصص:</div>
+                <div class="current-price" id="designerPriceDisplay">460 ج.م</div>
+              </div>
+
+              <button class="btn-primary" id="addCustomToCartBtn" style="flex:1;max-width:260px;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+                <span>إضافة التيشيرت للسلة</span>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- قسم عن البراند -->
+    <section class="section-padding" id="about">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div>
+            <div class="hero-tag">
+              <span class="dot" style="background:#eab308;box-shadow:0 0 10px #eab308;"></span>
+              <span>عن العلامة التجارية</span>
+            </div>
+            <h2 class="section-title">براند كريم السيد<br>فخر الصناعة المصرية</h2>
+            <p class="hero-desc" style="margin-top:16px;">
+              انطلقت علامة <strong>كريم السيد (KARIM ELSAYED)</strong> لتصنع فارقاً حقيقياً في مشهد أزياء الشوارع (Streetwear) بمصر والشرق الأوسط. نعتمد على القطن المصري طويل التيلة ذي الصيت العالمي، ونصمم قطعاً جريئة مستوحاة من ثقافة المدن المصرية بروح شبابية عصرية تواكب أحدث المنصات العالمية.
+            </p>
+            <div style="display:flex;gap:24px;margin-top:20px;">
+              <div>
+                <div style="font-size:1.8rem;font-weight:900;color:var(--text-pure);">100%</div>
+                <div style="font-size:0.85rem;color:var(--text-muted);">قطن مصري فاخر</div>
+              </div>
+              <div style="border-right:1px solid var(--border-subtle);padding-right:24px;">
+                <div style="font-size:1.8rem;font-weight:900;color:var(--text-pure);">+12,000</div>
+                <div style="font-size:0.85rem;color:var(--text-muted);">عميل سعيد في مصر</div>
+              </div>
+              <div style="border-right:1px solid var(--border-subtle);padding-right:24px;">
+                <div style="font-size:1.8rem;font-weight:900;color:var(--text-pure);">48 ساعة</div>
+                <div style="font-size:0.85rem;color:var(--text-muted);">متوسط سرعة التوصيل</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-mockup-card">
+            <h4 style="font-size:1.1rem;font-weight:800;color:var(--text-pure);margin-bottom:12px;">معايير الجودة الصارمة</h4>
+            <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.7;">
+              • خياطة مدعمة عند الكتفين والياقة لتحمل الاستخدام الشاق.<br>
+              • أصباغ ثابتة لا تبهت مع تكرار الغسيل والشمس.<br>
+              • طباعة أصلية بدون ملمس بلاستيكي خشن مزعج.<br>
+              • إمكانية المعاينة والاستبدال في حالة وجود أي عيب مصنعي.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم التواصل وواتساب المباشر -->
+    <section class="section-padding" id="contact" style="background:var(--bg-surface);border-top:1px solid var(--border-subtle);">
+      <div class="container" style="text-align:center;max-width:720px;">
+        <h2 class="section-title">تحتاج مساعدة أو استفسار خاص؟</h2>
+        <p class="hero-desc" style="margin:16px auto 32px;">
+          فريق خدمة عملاء كريم السيد متواجد لمساعدتك في اختيار المقاس المناسب، متابعة شحنتك، أو تنسيق طباعة كميات خاصة للمجموعات والشركات.
+        </p>
+
+        <a href="#" class="btn-primary" id="directWhatsappInquiryBtn" target="_blank" rel="noopener noreferrer" style="margin:0 auto;background:#25d366;color:#ffffff;box-shadow:0 4px 20px rgba(37,211,102,0.3);">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.173.086.275.071.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.086.159.058 1.011.477 1.184.564.173.087.289.13.332.202.043.073.043.419-.101.824z"/>
+          </svg>
+          <span>محادثة مباشرة مع كريم السيد على واتساب</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       تذييل الصفحة (Footer)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <span class="logo-arabic" style="font-size:1.6rem;">كريم السيد</span>
+            <span class="logo-en">KARIM ELSAYED</span>
+          </div>
+          <p>
+            علامة تجارية مصرية مستقلة متخصصة في الستريت وير الفاخر والطباعة حسب الطلب. نصنع ملابس تعبر عنك بأعلى جودة قطن مصري وتصاميم تواكب العصر.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>أقسام المتجر</h5>
+          <ul class="footer-links">
+            <li><a href="#catalog" onclick="window.filterByCategory('تيشيرتات أوفر سايز')">تيشيرتات أوفر سايز</a></li>
+            <li><a href="#catalog" onclick="window.filterByCategory('تيشيرتات مطبوعة')">تيشيرتات مطبوعة</a></li>
+            <li><a href="#catalog" onclick="window.filterByCategory('هوديز')">هوديز وسويت شيرت</a></li>
+            <li><a href="#catalog" onclick="window.filterByCategory('بناطيل')">بناطيل وكارغو</a></li>
+            <li><a href="#custom-designer">استوديو التصميم المخصص</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>خدمة العملاء</h5>
+          <ul class="footer-links">
+            <li><a href="#about">سياسة الجودة والخامات</a></li>
+            <li><a href="#contact">مدة ومصاريف الشحن</a></li>
+            <li><a href="#contact">الاستبدال والاسترجاع</a></li>
+            <li><a href="#contact">دليل المقاسات المعتمد</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>التواصل والطلبات</h5>
+          <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:12px;">
+            المتجر الرئيسي: القاهرة، جمهورية مصر العربية.<br>
+            الطلبات تتم بسلاسة عبر رسائل واتساب المشفرة.
+          </p>
+          <div style="font-size:0.8rem;color:var(--text-dark);">
+            رقم واتساب المتجر المعتمد:<br>
+            <span id="footerWhatsappNumberDisplay" style="color:var(--text-pure);font-family:var(--font-en);font-weight:700;">+20 10 0000 0000</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 جميع الحقوق محفوظة لعلامة <strong>كريم السيد (KARIM ELSAYED)</strong></div>
+        <div>تصميم وتطوير هندسي فائق الأداء • يعمل محلياً وعلى GitHub Pages بدون خادم خارجي</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       درج سلة المشتريات الجانبي (Slide-over Cart Drawer)
+       ========================================================================== -->
+  <div class="cart-drawer-backdrop" id="cartDrawerBackdrop">
+    <div class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-label="سلة المشتريات">
+      
+      <div class="cart-drawer-header">
+        <h3>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span>سلة المشتريات</span>
+        </h3>
+        <button class="icon-btn" id="cartCloseBtn" aria-label="إغلاق السلة">✕</button>
+      </div>
+
+      <!-- قائمة المنتجات المضافة بالسلة -->
+      <div class="cart-items-list" id="cartItemsList">
+        <!-- يتم ملؤها ديناميكياً بواسطة app.js -->
+      </div>
+
+      <!-- تذييل السلة ومجموع الحساب -->
+      <div class="cart-drawer-footer" id="cartDrawerFooter">
+        <div class="cart-row">
+          <span>المجموع الفرعي:</span>
+          <span id="cartSubtotalDisplay">0 ج.م</span>
+        </div>
+        <div class="cart-row">
+          <span>مصاريف الشحن التقديرية:</span>
+          <span id="cartShippingDisplay">50 ج.م</span>
+        </div>
+        <div class="cart-row total-row">
+          <span>الإجمالي النهائي:</span>
+          <span id="cartTotalDisplay">0 ج.م</span>
+        </div>
+
+        <button class="btn-primary" id="proceedToCheckoutBtn" style="width:100%;margin-top:6px;">
+          <span>متابعة الطلب عبر واتساب</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       نافذة إتمام الطلب وتجهيز رسالة واتساب (WhatsApp Checkout Modal)
+       ========================================================================== -->
+  <div class="modal-backdrop" id="checkoutModalBackdrop">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+      
+      <div class="modal-header">
+        <h3 id="checkoutTitle">إتمام الطلب عبر واتساب</h3>
+        <button class="icon-btn" id="checkoutCloseBtn" aria-label="إغلاق">✕</button>
+      </div>
+
+      <div class="modal-body">
+        
+        <div class="whatsapp-notice-banner" style="margin-bottom:18px;">
+          💡 عند الضغط على تأكيد الطلب، سيتم فتح محادثة مباشرة مع متجر <strong>كريم السيد</strong> وتجهيز نص الرسالة بكافة تفاصيل طلبك وعنوانك تلقائياً دون الحاجة لكتابتها.
+        </div>
+
+        <form class="checkout-form" id="checkoutForm" onsubmit="event.preventDefault();">
+          
+          <div class="form-group">
+            <label for="custName">الاسم بالكامل <span style="color:var(--accent-red)">*</span></label>
+            <input type="text" id="custName" class="form-input" placeholder="مثال: أحمد محمد علي" required />
+          </div>
+
+          <div class="form-group">
+            <label for="custPhone">رقم الهاتف (واتساب) <span style="color:var(--accent-red)">*</span></label>
+            <input type="tel" id="custPhone" class="form-input" placeholder="مثال: 01012345678" dir="ltr" style="text-align:right;" required />
+          </div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+            <div class="form-group">
+              <label for="custCity">المحافظة / المدينة <span style="color:var(--accent-red)">*</span></label>
+              <select id="custCity" class="form-select" required>
+                <option value="القاهرة">القاهرة</option>
+                <option value="الجيزة">الجيزة</option>
+                <option value="الإسكندرية">الإسكندرية</option>
+                <option value="الدقهلية (المنصورة)">الدقهلية (المنصورة)</option>
+                <option value="الغربية (طنطا)">الغربية (طنطا)</option>
+                <option value="الشرقية (الزقازيق)">الشرقية (الزقازيق)</option>
+                <option value="القليوبية">القليوبية</option>
+                <option value="البحيرة">البحيرة</option>
+                <option value="المنوفية">المنوفية</option>
+                <option value="دمياط">دمياط</option>
+                <option value="بورسعيد">بورسعيد</option>
+                <option value="الإسماعيلية">الإسماعيلية</option>
+                <option value="السويس">السويس</option>
+                <option value="بني سويف">بني سويف</option>
+                <option value="الفيوم">الفيوم</option>
+                <option value="المنيا">المنيا</option>
+                <option value="أسيوط">أسيوط</option>
+                <option value="سوهاج">سوهاج</option>
+                <option value="قنا">قنا</option>
+                <option value="الأقصر">الأقصر</option>
+                <option value="أسوان">أسوان</option>
+                <option value="البحر الأحمر">البحر الأحمر</option>
+                <option value="مطروح">مطروح</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="custShippingFee">تكلفة الشحن (ج.م)</label>
+              <input type="number" id="custShippingFee" class="form-input" value="50" min="0" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="custAddress">العنوان التفصيلي <span style="color:var(--accent-red)">*</span></label>
+            <textarea id="custAddress" class="form-textarea" rows="2" placeholder="اسم الشارع، رقم العمارة، رقم الشقة، علامة مميزة..." required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="custNotes">ملاحظات إضافية للطلب (اختياري)</label>
+            <input type="text" id="custNotes" class="form-input" placeholder="أي تعليمات إضافية لمندوب الشحن أو موعد التسليم المفصل..." />
+          </div>
+
+          <!-- معاينة نص رسالة الواتساب المولدة تلقائياً -->
+          <div class="form-group">
+            <label>معاينة نص الرسالة التي ستُرسل إلى المتجر عبر واتساب:</label>
+            <div class="whatsapp-preview-box" id="whatsappMessagePreview">
+              <!-- يتم توليدها في app.js -->
+            </div>
+          </div>
+
+          <!-- تذكير خاص بالمنتجات المطبوعة حسب الطلب -->
+          <div class="illustrative-disclaimer" id="customPrintReminder" style="display:none;margin-top:0;">
+            <span>⚠️</span>
+            <div>
+              <strong>تنبيه للمنتجات المخصصة:</strong> نظراً لأن رابط واتساب لا يمكنه إرفاق ملف الصورة تلقائياً من جهازك، يُرجى إرسال الصورة الأصلية التي استخدمتها في التصميم مباشرة في شات الواتساب بعد فتح المحادثة.
+            </div>
+          </div>
+
+          <div style="display:flex;gap:12px;margin-top:12px;">
+            <button type="button" class="btn-primary" id="confirmAndSendWhatsappBtn" style="flex:1;background:#25d366;color:#fff;">
+              <span>تأكيد وإرسال الطلب عبر واتساب 💬</span>
+            </button>
+            <button type="button" class="btn-outline" id="cancelCheckoutBtn">
+              <span>إلغاء</span>
+            </button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       نافذة تفاصيل المنتج السريعة (Product Detail Modal)
+       ========================================================================== -->
+  <div class="modal-backdrop" id="productModalBackdrop">
+    <div class="modal-box" style="max-width:760px;" role="dialog" aria-modal="true" aria-labelledby="modalProductTitle">
+      <div class="modal-header">
+        <h3 id="modalProductTitle">تفاصيل القطعة</h3>
+        <button class="icon-btn" id="productModalCloseBtn" aria-label="إغلاق">✕</button>
+      </div>
+
+      <div class="modal-body" id="productModalBody">
+        <!-- يتم ملؤها ديناميكياً في app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       لوحة الإدارة المحلية التجريبية (Local Admin Modal)
+       ========================================================================== -->
+  <div class="modal-backdrop" id="adminModalBackdrop">
+    <div class="modal-box admin-modal-box" role="dialog" aria-modal="true" aria-labelledby="adminPanelTitle">
+      
+      <div class="modal-header">
+        <h3 id="adminPanelTitle">لوحة الإدارة المحلية (Local Demo Panel)</h3>
+        <button class="icon-btn" id="adminModalCloseBtn" aria-label="إغلاق">✕</button>
+      </div>
+
+      <div class="modal-body">
+        
+        <div class="admin-warning-banner">
+          ⚠️ <strong>تنبيه هندسي هام:</strong> هذه لوحة إدارة تجريبية مدمجة تعمل بنظام <strong>localStorage</strong> الخاص بمتصفحك الحالي فقط. أي تعديل أو إضافة منتجات سيُحفظ على جهازك دون خادم سحابي مشترك، ويجب ربط المتجر بقاعدة بيانات وخادم حقيقي قبل الاستخدام التجاري الفعلي.
+        </div>
+
+        <div class="admin-tabs">
+          <button class="admin-tab-btn active" id="adminTabProducts" data-tab="products">المنتجات الحالية</button>
+          <button class="admin-tab-btn" id="adminTabAdd" data-tab="add">إضافة منتج جديد</button>
+          <button class="admin-tab-btn" id="adminTabSettings" data-tab="settings">إعدادات المتجر وواتساب</button>
+          <button class="admin-tab-btn" id="adminTabDownload" data-tab="download" style="color:#10b981;">📦 تحميل ملفات المشروع</button>
+        </div>
+
+        <!-- تبويب 1: جدول المنتجات -->
+        <div class="admin-tab-content" id="tabContentProducts">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;flex-wrap:wrap;gap:10px;">
+            <div style="font-weight:700;" id="adminProductsCountLabel">قائمة المنتجات (14)</div>
+            <div style="display:flex;gap:8px;">
+              <button class="tool-btn" id="adminAddNewShortcutBtn">➕ إضافة منتج جديد</button>
+              <button class="tool-btn" id="adminRestoreDefaultsBtn" style="color:#ef4444;">🔄 استعادة المنتجات الافتراضية</button>
+            </div>
+          </div>
+
+          <div class="admin-table-container">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th>الصورة</th>
+                  <th>اسم المنتج</th>
+                  <th>التصنيف</th>
+                  <th>السعر</th>
+                  <th>المخزون</th>
+                  <th>طباعة مخصصة</th>
+                  <th>إجراءات</th>
+                </tr>
+              </thead>
+              <tbody id="adminProductsTableBody">
+                <!-- يتم ملؤها ديناميكياً في app.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- تبويب 2: نموذج إضافة / تعديل منتج -->
+        <div class="admin-tab-content" id="tabContentAdd" style="display:none;">
+          <form id="adminProductForm" class="checkout-form" onsubmit="event.preventDefault();">
+            <input type="hidden" id="editProductId" value="" />
+            
+            <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:16px;">
+              <div class="form-group">
+                <label for="admProdName">اسم المنتج <span style="color:var(--accent-red)">*</span></label>
+                <input type="text" id="admProdName" class="form-input" required />
+              </div>
+
+              <div class="form-group">
+                <label for="admProdCategory">التصنيف <span style="color:var(--accent-red)">*</span></label>
+                <select id="admProdCategory" class="form-select" required>
+                  <option value="تيشيرتات مطبوعة">تيشيرتات مطبوعة</option>
+                  <option value="تيشيرتات سادة">تيشيرتات سادة</option>
+                  <option value="تيشيرتات أوفر سايز">تيشيرتات أوفر سايز</option>
+                  <option value="طباعة حسب الطلب">طباعة حسب الطلب</option>
+                  <option value="بناطيل">بناطيل</option>
+                  <option value="هوديز">هوديز</option>
+                  <option value="سويت شيرت">سويت شيرت</option>
+                  <option value="إكسسوارات">إكسسوارات</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="admProdDesc">وصف المنتج</label>
+              <textarea id="admProdDesc" class="form-textarea" rows="2"></textarea>
+            </div>
+
+            <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;">
+              <div class="form-group">
+                <label for="admProdPrice">السعر بالجنيه (ج.م) <span style="color:var(--accent-red)">*</span></label>
+                <input type="number" id="admProdPrice" class="form-input" min="1" required />
+              </div>
+
+              <div class="form-group">
+                <label for="admProdDiscount">سعر الخصم (اختياري)</label>
+                <input type="number" id="admProdDiscount" class="form-input" min="0" placeholder="اتركه فارغاً إن لم يوجد" />
+              </div>
+
+              <div class="form-group">
+                <label for="admProdStock">الكمية بالمخزون</label>
+                <input type="number" id="admProdStock" class="form-input" value="20" min="0" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>صورة المنتج (رفع ملف محلي أو رابط):</label>
+              <div style="display:flex;gap:12px;align-items:center;">
+                <input type="file" id="admProdFileInput" accept="image/*" class="form-input" style="flex:1;" />
+                <div id="admImagePreviewThumb" style="width:50px;height:50px;border-radius:6px;background:#000;overflow:hidden;border:1px solid var(--border-subtle);flex-shrink:0;">
+                  <img id="admPreviewImg" src="" style="width:100%;height:100%;object-fit:cover;display:none;" />
+                </div>
+              </div>
+              <input type="hidden" id="admProdImageDataUrl" value="" />
+            </div>
+
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+              <div class="form-group">
+                <label for="admProdSizes">المقاسات المتاحة (مفصولة بفاصلة)</label>
+                <input type="text" id="admProdSizes" class="form-input" value="S, M, L, XL, 2XL" />
+              </div>
+
+              <div class="form-group">
+                <label for="admProdColors">الألوان المتاحة (مفصولة بفاصلة)</label>
+                <input type="text" id="admProdColors" class="form-input" value="أسود فحمي, أبيض قطني, رمادي ميلانج" />
+              </div>
+            </div>
+
+            <div style="display:flex;gap:24px;margin-top:6px;">
+              <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+                <input type="checkbox" id="admProdCustomPrintable" />
+                <span>إتاحة الطباعة المخصصة لهذا المنتج</span>
+              </label>
+
+              <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+                <input type="checkbox" id="admProdFeatured" />
+                <span>تمييز كمنتج بارز (Featured)</span>
+              </label>
+            </div>
+
+            <div style="display:flex;gap:12px;margin-top:14px;">
+              <button type="submit" class="btn-primary" id="saveProductBtn" style="flex:1;">
+                <span>حفظ المنتج في المتجر</span>
+              </button>
+              <button type="button" class="btn-outline" id="cancelEditProductBtn">
+                <span>إلغاء</span>
+              </button>
+            </div>
+
+          </form>
+        </div>
+
+        <!-- تبويب 3: إعدادات المتجر ورقم الواتساب -->
+        <div class="admin-tab-content" id="tabContentSettings" style="display:none;">
+          <form id="adminSettingsForm" class="checkout-form" onsubmit="event.preventDefault();">
+            
+            <div class="form-group">
+              <label for="setWhatsappNumber">رقم واتساب المتجر (مع كود الدولة دون أصفار أو علامة +) <span style="color:var(--accent-red)">*</span></label>
+              <input type="text" id="setWhatsappNumber" class="form-input" dir="ltr" placeholder="مثال: 201012345678" required />
+              <small style="color:var(--text-muted);">هذا الرقم هو الذي سيتم توجيه العملاء ومحادثات الطلب إليه مباشرة.</small>
+            </div>
+
+            <div class="form-group">
+              <label for="setDefaultShipping">تكلفة الشحن الافتراضية (بالجنيه المصري)</label>
+              <input type="number" id="setDefaultShipping" class="form-input" value="50" min="0" required />
+            </div>
+
+            <button type="submit" class="btn-primary" id="saveSettingsBtn" style="margin-top:10px;">
+              <span>حفظ الإعدادات</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- تبويب 4: تحميل وتصدير ملفات المشروع كاملة -->
+        <div class="admin-tab-content" id="tabContentDownload" style="display:none;">
+          <div class="download-tab-container">
+            
+            <div class="download-hero-card">
+              <div class="download-hero-info">
+                <h4>
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  حزمة المشروع الكاملة (ملف مضغوط ZIP)
+                </h4>
+                <p>يحتوي هذا الملف المضغوط على كامل ملفات المشروع الخمسة المطلوبة، جاهزة للرفع مباشرة على GitHub Pages أو خادمك الخاص بضغطة زر واحدة وبدون أي تعقيد.</p>
+              </div>
+              <a href="/download-zip" download="karim-elsayed-store.zip" class="btn-download-big">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>تحميل ملف ZIP الكامل الآن</span>
+              </a>
+            </div>
+
+            <div style="font-weight:700;margin-top:10px;">أو يمكنك تنزيل كل ملف بمفرده:</div>
+
+            <div class="files-download-grid">
+              
+              <div class="file-item-card">
+                <div class="file-item-meta">
+                  <div class="file-badge-icon badge-html">HTML</div>
+                  <div class="file-item-info">
+                    <div class="file-item-name">index.html</div>
+                    <div class="file-item-desc">هيكل الواجهة والصفحة الرئيسية والأقسام</div>
+                  </div>
+                </div>
+                <a href="/index.html" download="index.html" class="btn-file-dl">
+                  <span>تنزيل</span>
+                </a>
+              </div>
+
+              <div class="file-item-card">
+                <div class="file-item-meta">
+                  <div class="file-badge-icon badge-css">CSS</div>
+                  <div class="file-item-info">
+                    <div class="file-item-name">styles.css</div>
+                    <div class="file-item-desc">تصميم المتجر الفاخر ونظام التنسيق العصري</div>
+                  </div>
+                </div>
+                <a href="/styles.css" download="styles.css" class="btn-file-dl">
+                  <span>تنزيل</span>
+                </a>
+              </div>
+
+              <div class="file-item-card">
+                <div class="file-item-meta">
+                  <div class="file-badge-icon badge-js">JS</div>
+                  <div class="file-item-info">
+                    <div class="file-item-name">app.js</div>
+                    <div class="file-item-desc">المحرك التفاعلي، استوديو التيشيرت، وسلة الشراء</div>
+                  </div>
+                </div>
+                <a href="/app.js" download="app.js" class="btn-file-dl">
+                  <span>تنزيل</span>
+                </a>
+              </div>
+
+              <div class="file-item-card">
+                <div class="file-item-meta">
+                  <div class="file-badge-icon badge-js">DATA</div>
+                  <div class="file-item-info">
+                    <div class="file-item-name">products.js</div>
+                    <div class="file-item-desc">قاعدة بيانات المنتجات والتصنيفات والأسعار</div>
+                  </div>
+                </div>
+                <a href="/products.js" download="products.js" class="btn-file-dl">
+                  <span>تنزيل</span>
+                </a>
+              </div>
+
+              <div class="file-item-card">
+                <div class="file-item-meta">
+                  <div class="file-badge-icon badge-md">DOCS</div>
+                  <div class="file-item-info">
+                    <div class="file-item-name">README.md</div>
+                    <div class="file-item-desc">دليل التشغيل وخطوات النشر على GitHub Pages</div>
+                  </div>
+                </div>
+                <a href="/README.md" download="README.md" class="btn-file-dl">
+                  <span>تنزيل</span>
+                </a>
+              </div>
+
+            </div>
+
+            <div style="background:var(--bg-surface);border:1px solid var(--border-subtle);border-radius:var(--radius-md);padding:16px;font-size:0.86rem;line-height:1.6;color:var(--text-muted);margin-top:6px;">
+              💡 <strong>طريقة التشغيل والنشر:</strong> فك ضغط ملف <code>karim-elsayed-store.zip</code>، ثم يمكنك فتح ملف <code>index.html</code> في أي متصفح مباشرة، أو رفع محتويات المجلد إلى مستودع GitHub وتفعيل <strong>GitHub Pages</strong> ليعمل الموقع أونلاين فوراً دون حاجة لأي تثبيت أو خوادم خلفية.
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- صندوق تأكيد الحذف -->
+  <div class="modal-backdrop" id="confirmDialogBackdrop">
+    <div class="modal-box" style="max-width:400px;text-align:center;padding:24px;">
+      <h3 id="confirmDialogTitle" style="margin-bottom:12px;font-size:1.15rem;">تأكيد الإجراء</h3>
+      <p id="confirmDialogMessage" style="color:var(--text-muted);font-size:0.9rem;margin-bottom:20px;">هل أنت متأكد من رغبتك في المتابعة؟</p>
+      <div style="display:flex;gap:10px;justify-content:center;">
+        <button class="btn-primary" id="confirmDialogAcceptBtn" style="background:var(--accent-red);padding:10px 20px;">نعم، متابعة</button>
+        <button class="btn-outline" id="confirmDialogCancelBtn" style="padding:10px 20px;">إلغاء</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- زر تحميل الكود العائم الدائم -->
+  <a href="/download-zip" download="karim-elsayed-store.zip" class="floating-download-btn" id="floatingDownloadBtn" title="تحميل ملفات المشروع كاملة (ZIP)">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+      <polyline points="7 10 12 15 17 10"></polyline>
+      <line x1="12" y1="15" x2="12" y2="3"></line>
+    </svg>
+    <span>تحميل ملفات المشروع (ZIP)</span>
+  </a>
+
+  <!-- زر واتساب العائم السريع -->
+  <a href="#" class="floating-whatsapp-btn" id="floatingWhatsappBtn" target="_blank" rel="noopener noreferrer" title="تواصل عبر واتساب" aria-label="تواصل عبر واتساب">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.173.086.275.071.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.086.159.058 1.011.477 1.184.564.173.087.289.13.332.202.043.073.043.419-.101.824z"/>
+    </svg>
+  </a>
+
+  <!-- حاوية إشعارات التوست -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- تحميل ملفات الجافاسكريبت بالترتيب -->
+  <script src="./products.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

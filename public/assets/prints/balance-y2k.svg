@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="chromeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#FBCFE8"/>
+      <stop offset="50%" stop-color="#F472B6"/>
+      <stop offset="52%" stop-color="#831843"/>
+      <stop offset="70%" stop-color="#DB2777"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <filter id="starGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#F472B6" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+  <rect width="700" height="450" fill="#0C0A0E" rx="16"/>
+
+  <!-- Liquid Chrome Oval Pod Backdrop -->
+  <g transform="translate(50, 60)">
+    <path d="M 60,160 Q 20,40 180,40 Q 420,10 540,80 Q 620,140 560,240 Q 480,300 280,290 Q 90,280 60,160 Z" 
+          fill="#1F0E17" stroke="#DB2777" stroke-width="6"/>
+    <path d="M 80,150 Q 50,60 190,60 Q 400,30 510,95 Q 570,145 525,225 Q 450,275 280,265 Q 120,255 80,150 Z" 
+          fill="#3B1124" stroke="#F472B6" stroke-width="2"/>
+    
+    <!-- Left Starburst -->
+    <g transform="translate(100, 50)" filter="url(#starGlow)">
+      <polygon points="0,-45 8,-12 45,0 8,12 0,45 -8,12 -45,0 -8,-12" fill="url(#chromeGrad)"/>
+    </g>
+
+    <!-- Right Bottom Starburst -->
+    <g transform="translate(510, 240)" filter="url(#starGlow)">
+      <polygon points="0,-55 10,-15 55,0 10,15 0,55 -10,15 -55,0 -10,-15" fill="url(#chromeGrad)"/>
+    </g>
+
+    <!-- BALANCE Inflatable 3D Bubble Letters -->
+    <text x="300" y="200" font-family="'Arial Black', 'Impact', sans-serif" font-weight="900" font-size="95" 
+          fill="url(#chromeGrad)" stroke="#500724" stroke-width="8" text-anchor="middle" letter-spacing="4" filter="url(#starGlow)">
+      BALANCE
+    </text>
+  </g>
+</svg>

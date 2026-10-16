@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <pattern id="fishnet" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 0,15 Q 15,0 30,15 Q 15,30 0,15 Z" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <circle cx="15" cy="15" r="1.5" fill="#FFFFFF"/>
+    </pattern>
+    <pattern id="waves" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 0,10 L 10,0 L 20,10 L 10,20 Z" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="600" fill="#0A0A0C" rx="16"/>
+  <!-- Inverted Triangle Keffiyeh Bandana -->
+  <g transform="translate(50, 60)">
+    <!-- Main Triangle Outer -->
+    <polygon points="0,40 500,40 250,480" fill="#111114" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="round"/>
+    
+    <!-- Fishnet Center Area -->
+    <polygon points="80,90 420,90 250,390" fill="url(#fishnet)" stroke="#FFFFFF" stroke-width="3"/>
+    
+    <!-- Bold Chevron Stripes (Borders) -->
+    <polyline points="20,55 250,460 480,55" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+    <polyline points="45,70 250,430 455,70" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-dasharray="10,6"/>
+    
+    <!-- Olive Leaf Wave Borders -->
+    <path d="M 30,60 L 250,450" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="4,4"/>
+    <path d="M 470,60 L 250,450" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="4,4"/>
+    
+    <!-- Hanging Tassels (هدب الكوفية) -->
+    <g fill="#FFFFFF">
+      <circle cx="20" cy="55" r="7"/>
+      <path d="M 15,55 L 12,85 Q 20,95 28,85 L 25,55 Z"/>
+      
+      <circle cx="65" cy="135" r="6"/>
+      <path d="M 60,135 L 56,165 Q 65,175 74,165 L 70,135 Z"/>
+      
+      <circle cx="115" cy="225" r="6"/>
+      <path d="M 110,225 L 106,255 Q 115,265 124,255 L 120,225 Z"/>
+      
+      <circle cx="170" cy="325" r="6"/>
+      <path d="M 165,325 L 161,355 Q 170,365 179,355 L 175,325 Z"/>
+      
+      <!-- Center Bottom Tassel -->
+      <circle cx="250" cy="480" r="9"/>
+      <path d="M 243,480 L 238,525 Q 250,540 262,525 L 257,480 Z"/>
+      
+      <circle cx="330" cy="325" r="6"/>
+      <path d="M 325,325 L 321,355 Q 330,365 339,355 L 335,325 Z"/>
+      
+      <circle cx="385" cy="225" r="6"/>
+      <path d="M 380,225 L 376,255 Q 385,265 394,255 L 390,225 Z"/>
+      
+      <circle cx="435" cy="135" r="6"/>
+      <path d="M 430,135 L 426,165 Q 435,175 444,165 L 440,135 Z"/>
+      
+      <circle cx="480" cy="55" r="7"/>
+      <path d="M 475,55 L 472,85 Q 480,95 488,85 L 485,55 Z"/>
+    </g>
+  </g>
+</svg>

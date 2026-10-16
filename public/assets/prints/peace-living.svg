@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="blueLiquid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="35%" stop-color="#2563EB"/>
+      <stop offset="70%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="liquidFlow">
+      <feTurbulence type="fractalNoise" baseFrequency="0.015 0.08" numOctaves="3" result="warp"/>
+      <feDisplacementMap in="SourceGraphic" in2="warp" scale="26" xChannelSelector="R" yChannelSelector="B"/>
+    </filter>
+  </defs>
+  <rect width="500" height="700" fill="#090A0F" rx="16"/>
+
+  <g transform="translate(250, 100)">
+    <!-- Solitary details top -->
+    <text x="-180" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#94A3B8" font-weight="700">DAY 224/365</text>
+    <text x="0" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#94A3B8" font-weight="700" text-anchor="middle">LIVING LIFE IN PEACE</text>
+    <text x="180" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#94A3B8" font-weight="700" text-anchor="end">SOLITARY.DESIGNS</text>
+    
+    <g transform="translate(0, 220)">
+      <!-- Dripping Liquid Blue Flames -->
+      <g filter="url(#liquidFlow)">
+        <path d="M -190,0 Q -160,180 -140,320 Q -120,400 -100,240 Q -80,380 -50,210 Q -20,420 10,230 Q 40,410 70,220 Q 100,370 130,210 Q 160,340 180,180 L 190,0 Z" 
+              fill="url(#blueLiquid)" opacity="0.95"/>
+      </g>
+      <!-- PEACE Typography -->
+      <text x="0" y="20" font-family="'Impact', 'Arial Black', sans-serif" font-weight="900" 
+            font-size="88" fill="#0F172A" stroke="#38BDF8" stroke-width="5" text-anchor="middle" letter-spacing="4">
+        PEACE
+      </text>
+    </g>
+  </g>
+</svg>
