@@ -299,30 +299,6 @@ a {
   background: var(--bg-surface);
 }
 
-.download-nav-btn {
-  font-size: 0.82rem;
-  font-weight: 700;
-  padding: 6px 14px;
-  border-radius: var(--radius-md);
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #ffffff;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  text-decoration: none;
-  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
-  transition: all var(--transition-fast);
-  cursor: pointer;
-}
-
-.download-nav-btn:hover {
-  background: linear-gradient(135deg, #059669 0%, #047857 100%);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.45);
-  color: #ffffff;
-}
-
 .mobile-menu-btn {
   display: none;
 }
@@ -2102,34 +2078,6 @@ a {
 .floating-whatsapp-btn:hover {
   transform: scale(1.08);
   box-shadow: 0 12px 30px rgba(37, 211, 102, 0.6);
-}
-
-/* زر تحميل الكود العائم الدائم */
-.floating-download-btn {
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
-  z-index: 95;
-  background: linear-gradient(135deg, #10b981 0%, #047857 100%);
-  color: #ffffff;
-  padding: 12px 20px;
-  border-radius: var(--radius-full);
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-weight: 800;
-  font-size: 0.9rem;
-  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.45);
-  border: 1.5px solid rgba(255, 255, 255, 0.35);
-  text-decoration: none;
-  cursor: pointer;
-  transition: all var(--transition-fast);
-}
-
-.floating-download-btn:hover {
-  transform: translateY(-3px) scale(1.03);
-  box-shadow: 0 12px 32px rgba(16, 185, 129, 0.65);
-  color: #ffffff;
 }
 
 /* تنبيهات التوست (Toasts) */
